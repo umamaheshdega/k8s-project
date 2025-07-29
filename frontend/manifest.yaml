@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: FrontendDeploy
+kind: Deployment
 metadata:
   name: frontend
   namespace: expense
