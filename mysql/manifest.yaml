@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deploymentmysql
+kind: Deployment
 metadata:
   name: mysql
   namespace: expense
