@@ -37,7 +37,7 @@ spec:
   type: LoadBalancer
   selector: # labels are used as selectors
     app: frontend
-    tier: frontend
+    tier: web
     project: expense
   ports:
   - protocol: TCP
