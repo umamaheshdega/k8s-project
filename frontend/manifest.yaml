@@ -25,6 +25,15 @@ spec:
       containers:
       - name: nginx
         image: mahesh452/frontend:1.2.0
+        resources:
+          # soft limit
+          requests:
+            memory: "68Mi"
+            cpu: "100m"
+          # hard limit
+          limits:
+            memory: "128Mi"
+            cpu: "150m"
         ports:
         - containerPort: 8080
 ---
